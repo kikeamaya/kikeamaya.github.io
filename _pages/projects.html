@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+## Engineering Physics Propulsion Laboratory
+
+{% for post in site.portfolio %}
+  {% if post.category == "eppl" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Course and Capstone
+
+{% for post in site.portfolio %}
+  {% if post.category == "course" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
