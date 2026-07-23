@@ -1,22 +1,27 @@
 ---
 layout: archive
-title: "Projects"
+title: "Research Projects"
 permalink: /projects/
 author_profile: true
 ---
 
-## Engineering Physics Propulsion Laboratory
+<h2>Engineering Physics Propulsion Laboratory<h2>
 
+<div class="grid__wrapper">
 {% for post in site.portfolio %}
   {% if post.category == "eppl" %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endif %}
 {% endfor %}
+</div>
 
-## Course and Capstone
 
+<h2>Course and Capstone<h2>
+
+<div class="grid__wrapper">
 {% for post in site.portfolio %}
   {% if post.category == "course" %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endif %}
 {% endfor %}
+</div>
