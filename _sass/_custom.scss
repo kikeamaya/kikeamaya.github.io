@@ -1,7 +1,6 @@
 /* Project Card Formatting */
 
-
-.project-card 
+.project-card
 {
   margin: 0 0 0.9rem;
   padding: 0.75rem;
@@ -97,4 +96,15 @@
     width: 72px;
     height: 72px;
   }
+
+  .project_section-title
+  {
+  margin: 1.5rem 0 0.85rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #d7e0e6;
+  color: #183b4e;
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+ }
 }
