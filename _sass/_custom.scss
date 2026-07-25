@@ -30,6 +30,9 @@
   object-fit: cover;
   border: 1px solid #dedede;
   border-radius: 4px;
+  cursor: default;
+  user-select: none;
+  pointer-events: none;
 }
 
 .project-card__content 
