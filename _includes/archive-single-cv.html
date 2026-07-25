@@ -17,13 +17,13 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     {% if teaser %}
-      <a class="project-card__image" href="{{ base_path }}{{ post.url }}" rel="permalink">
+      <div class="project-card__image">
         {% if teaser contains "://" %}
           <img src="{{ teaser }}" alt="{{ title | strip_html }}">
         {% else %}
           <img src="{{ teaser | relative_url }}" alt="{{ title | strip_html }}">
         {% endif %}
-      </a>
+      </div>
     {% endif %}
 
     <div class="project-card__content">
