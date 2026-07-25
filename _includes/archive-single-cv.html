@@ -28,11 +28,7 @@
 
     <div class="project-card__content">
       <h3 class="archive__item-title" itemprop="headline">
-        {% if post.link %}
-          <a href="{{ post.link }}">{{ title }}</a>
-        {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        {% endif %}
+        {{ title }}
       </h3>
 
       {% if post.excerpt %}
