@@ -5,9 +5,9 @@
 {
   margin: 0 0 0.9rem;
   padding: 0.75rem;
-  border: 1px solid #dedede;
+  border: 1px solid #d7e0e6;
   border-radius: 6px;
-  background: #fafafa;
+  background: #f8fafc;
 }
 
 .project-card .archive__item 
@@ -41,7 +41,9 @@
 .project-card .archive__item-title 
 {
   margin: 0 0 0.25rem;
+  color: #183b4e;
   font-size: 0.92em;
+  font-weight: 700;
   line-height: 1.25;
 }
 
@@ -56,9 +58,9 @@
  {
   display: inline-block;
   padding: 0.12rem 0.45rem;
-  border: 1px solid #57abc4;
+  border: 1px solid #007c91;
   border-radius: 3px;
-  color: #3f91aa;
+  color: #007c91;
   font-size: 0.78em;
   line-height: 1.2;
   text-decoration: none;
@@ -66,8 +68,8 @@
 
 .project-card__button:hover
  {
-  background: #eaf7fb;
-  color: #2d7185;
+  background: #e5f5f6;
+  color: #005d6c;
 }
 
 /* Keep cards usable on narrow phone screens */
