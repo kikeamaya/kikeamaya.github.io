@@ -5,12 +5,12 @@ permalink: /projects/
 author_profile: true
 ---
 
-<h2>Engineering Physics Propulsion Laboratory<h2>
+<h2>Engineering Physics Propulsion Laboratory</h2>
 
-<div class="grid__wrapper">
+<div class="list__wrapper">
 {% for post in site.portfolio %}
   {% if post.category == "eppl" %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-cv.html type="list" %}
   {% endif %}
 {% endfor %}
 </div>
@@ -18,10 +18,10 @@ author_profile: true
 
 <h2>Course and Capstone<h2>
 
-<div class="grid__wrapper">
+<div class="list__wrapper">
 {% for post in site.portfolio %}
   {% if post.category == "course" %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-cv.html type="list" %}
   {% endif %}
 {% endfor %}
 </div>

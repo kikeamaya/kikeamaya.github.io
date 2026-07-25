@@ -1,7 +1,7 @@
 {% include base_path %}
 
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+  {% assign teaser = post.header.teaser %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
@@ -12,31 +12,39 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+
+<div class="project-card">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
+
+    {% if teaser %}
+      <a class="project-card__image" href="{{ base_path }}{{ post.url }}" rel="permalink">
+        {% if teaser contains "://" %}
+          <img src="{{ teaser }}" alt="{{ title | strip_html }}">
+        {% else %}
+          <img src="{{ teaser | relative_url }}" alt="{{ title | strip_html }}">
+        {% endif %}
+      </a>
     {% endif %}
-    <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+
+    <div class="project-card__content">
+      <h3 class="archive__item-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h3>
+
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
       {% endif %}
-    </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
-    </li>
- </article>
+
+      <a class="project-card__button" href="{{ base_path }}{{ post.url }}" rel="permalink">
+        Read more
+      </a>
+    </div>
+
+  </article>
 </div>
