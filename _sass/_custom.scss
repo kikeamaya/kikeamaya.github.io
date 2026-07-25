@@ -74,6 +74,17 @@
   color: #005d6c;
 }
 
+.project-section-title
+{
+  margin: 1.5rem 0 0.085rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #d7e0e6;
+  color: #183b4e;
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 /* Keep cards usable on narrow phone screens */
 @media (max-width: 480px)
  {
@@ -96,15 +107,4 @@
     width: 72px;
     height: 72px;
   }
-
-  .project_section-title
-  {
-  margin: 1.5rem 0 0.85rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid #d7e0e6;
-  color: #183b4e;
-  font-size: 1.05em;
-  font-weight: 700;
-  letter-spacing: 0.01em;
- }
 }
