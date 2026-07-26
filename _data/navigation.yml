@@ -9,7 +9,7 @@
 
 main:
 
-  - title: "CV"
+  - title: "Curriculum Vitae"
     url: /files/Enrique-Amaya-Resume-trial-2.pdf
     
   - title: "Projects"
@@ -18,7 +18,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  
+  - title: "Courses"
+    url: /courses/
 
   # - title: "Talks"
   # url: /talks/    
@@ -36,5 +37,5 @@ main:
   # - title: "CV"
   #   url: /cv-json/
   
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+  #  url: /markdown/
