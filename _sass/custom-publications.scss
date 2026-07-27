@@ -100,4 +100,10 @@
     padding: 0.28rem 0.52rem;
     font-size: 0.8em;
   }
+
+/* Hide theme switcher and navigation toggle on all screen sizes */
+.masthead__menu-item--lg,
+.greedy-nav__toggle {
+  display: none !important;
+}
 }
