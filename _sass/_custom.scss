@@ -89,7 +89,14 @@
   width: 160px;
   height: 160px;
   object-fit: cover;
+  object-position: center top;
   border-radius: 50%;
+}
+
+/* Hide theme switcher and navigation toggle on all screen sizes */
+.masthead__menu-item--lg,
+.greedy-nav__toggle {
+  display: none !important;
 }
 
 /* Keep cards usable on narrow phone screens */
@@ -114,4 +121,6 @@
     width: 72px;
     height: 72px;
   }
+
+
 }
