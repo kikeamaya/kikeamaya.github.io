@@ -11,8 +11,6 @@ abstract: >
 paperurl: "https://commons.erau.edu/beyond/vol9/iss1/6/"
 projecturl: "/projects/airhound/"
 ---
-# {{ page.title }}
-Published: {{ page.date | date: "%B %-d, %Y" }}
 
 ## Abstract
 

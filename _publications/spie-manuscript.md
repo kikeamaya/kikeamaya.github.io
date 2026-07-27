@@ -11,8 +11,6 @@ abstract: >
 paperurl: "https://doi.org/10.1117/12.3094732"
 projecturl: "/projects/airhound/"
 ---
-# {{ page.title }}
-Published: {{ page.date | date: "%B %-d, %Y" }}
 
 ## Abstract
 
