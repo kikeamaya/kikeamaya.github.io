@@ -1,0 +1,103 @@
+.publication-section-title {
+  width: 100%;
+  margin: 1.25rem 0 0.9rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #b9cbd4;
+  color: #183b4e;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.publication-card {
+  margin: 0 0 0.85rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d7dfe3;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.publication-card__content {
+  width: 100%;
+}
+
+.publication-card__title {
+  margin: 0 0 0.25rem;
+  color: #183b4e;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.publication-card__authors,
+.publication-card__venue,
+.publication-card__excerpt {
+  margin: 0.2rem 0;
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+.publication-card__authors {
+  color: #4d5960;
+}
+
+.publication-card__venue {
+  color: #66757d;
+}
+
+.publication-card__excerpt {
+  margin-top: 0.55rem;
+  color: #3b454a;
+}
+
+.publication-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.publication-card__button {
+  display: inline-block;
+  padding: 0.22rem 0.5rem;
+  border: 1px solid #5aaec1;
+  border-radius: 3px;
+  color: #278aa3 !important;
+  background: #ffffff;
+  font-size: 0.82em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.publication-card__button:hover {
+  color: #ffffff !important;
+  background: #278aa3;
+}
+
+@media (max-width: 600px) {
+  .publication-card {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .publication-card__title {
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+
+  .publication-card__authors,
+  .publication-card__venue,
+  .publication-card__excerpt {
+    font-size: 0.86em;
+  }
+
+  .publication-card__links {
+    gap: 0.4rem;
+    margin-top: 0.7rem;
+  }
+
+  .publication-card__button {
+    padding: 0.28rem 0.52rem;
+    font-size: 0.8em;
+  }
+}

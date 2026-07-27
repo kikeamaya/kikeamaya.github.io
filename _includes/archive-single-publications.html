@@ -1,0 +1,47 @@
+{% include base_path %}
+
+<div class="publication-card">
+  <article class="archive__item" itemscope itemtype="https://schema.org/ScholarlyArticle">
+    <div class="publication-card__content">
+      <h3 class="publication-card__title" itemprop="headline">
+        {{ post.title }}
+      </h3>
+
+      {% if post.authors %}
+        <p class="publication-card__authors">{{ post.authors }}</p>
+      {% endif %}
+
+      {% if post.venue or post.date %}
+        <p class="publication-card__venue">
+          {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.venue and post.date %}, {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
+        </p>
+      {% endif %}
+
+      {% if post.excerpt %}
+        <p class="publication-card__excerpt">
+          {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      {% endif %}
+
+      <div class="publication-card__links">
+        {% if post.paperurl %}
+          <a class="publication-card__button" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
+            Paper
+          </a>
+        {% endif %}
+          
+        {% if post.abstracturl %}
+          <a class="publication-card__button" href="{{ post.url | relative_url }}">
+            Abstract
+          </a>
+        {% endif %}
+
+        {% if post.projecturl %}
+          <a class="publication-card__button" href="{{ post.projecturl }}">
+            Project
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</div>
