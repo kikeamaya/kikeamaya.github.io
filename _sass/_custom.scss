@@ -93,9 +93,12 @@
   border-radius: 50%;
 }
 
-/* Hide theme switcher and navigation toggle on all screen sizes */
-.masthead__menu-item--lg,
-.greedy-nav__toggle {
+/* Hide header theme switcher and menu toggle everywhere */
+.theme-toggle,
+.theme-toggle-button,
+.greedy-nav__toggle,
+.greedy-nav button,
+.masthead button {
   display: none !important;
 }
 
