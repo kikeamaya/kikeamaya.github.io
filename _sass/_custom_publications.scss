@@ -11,7 +11,7 @@
 
 .publication-card {
   margin: 0 0 0.7rem;
-  padding: 0.9rem 1.0rem;
+  padding: 0.6rem 1.0rem;
   border: 1px solid #cbd7dc;
   border-radius: 4px;
   background: #edf2f4;
@@ -29,7 +29,14 @@
   width: 100%;
 }
 
-.publication-card__title {
+.publication-card .archive__item
+{
+  margin: 0;
+  padding: 0;
+}
+
+.publication-card__title 
+{
   margin: 0 0 0.25rem;
   color: #183b4e;
   font-size: 1em;
@@ -37,31 +44,26 @@
   line-height: 1.35;
 }
 
-.publication-card__authors,
-.publication-card__venue,
+.publication-card__authors
+{
+  margin: 0 0 0.1rem;
+  color: #4d5960;
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+.publication-card__venue
+{
+  margin: 0 0 0.35rem;
+  color: #66757d;
+  font-size: 0.9em;
+  line-height: 1.35;
+}
 .publication-card__excerpt 
 {
   margin: 0;
   font-size: 0.9em;
   line-height: 1.45;
-}
-
-.publication-card__authors 
-{
-  margin-bottom: 0.1rem;
   color: #4d5960;
-}
-
-.publication-card__venue 
-{
-  margin-bottom: 0.35rem;
-  color: #66757d;
-}
-
-.publication-card__excerpt 
-{
-  margin-top: 0.45rem;
-  color: #3b454a;
 }
 
 /* Collaborator Linkedin Links */
