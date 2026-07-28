@@ -1,0 +1,26 @@
+/* Course Customization Page */
+
+.page__content h2
+{
+    margin-top: 2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #b9cbd4;
+    color: #183b4e;
+    font-weight: 700;
+}
+
+.page__content h3
+{
+    margin-top: 1.1rem;
+    margin-bottom: 0.3rem;
+    color: #183b4e;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.3;
+}
+
+.page__content h3 + p
+{
+    margin-bottom: 1.1rem;
+    margin-top: 0;
+}
