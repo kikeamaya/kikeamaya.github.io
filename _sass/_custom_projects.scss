@@ -7,7 +7,7 @@
   border: 1px solid #d7e0e6;
   border-radius: 6px;
   background: #f8fafc;
-  transition: border-color 0.2s ease, box-shaow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .project-card:hover
@@ -47,7 +47,7 @@
   min-width: 0;
 }
 
-.project-card .archive__item-title 
+.project-card__title 
 {
   margin: 0 0 0.25rem;
   color: #183b4e;
@@ -56,7 +56,7 @@
   line-height: 1.25;
 }
 
-.project-card .archive__item-excerpt
+ .project-card__excerpt
  {
   margin: 0 0 0.5rem;
   font-size: 0.82em;
@@ -79,6 +79,7 @@
  {
   background: #e5f5f6;
   color: #005d6c;
+  text-decoration: none;
 }
 
 .project-section-title {

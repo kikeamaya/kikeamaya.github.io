@@ -27,12 +27,12 @@
     {% endif %}
 
     <div class="project-card__content">
-      <h3 class="archive__item-title" itemprop="headline">
+      <h3 class="project-card__title" itemprop="headline">
         {{ title }}
       </h3>
 
       {% if post.excerpt %}
-        <p class="archive__item-excerpt" itemprop="description">
+        <p class="project-card__excerpt" itemprop="description">
           {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
         </p>
       {% endif %}
