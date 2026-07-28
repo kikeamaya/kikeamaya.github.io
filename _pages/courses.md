@@ -5,8 +5,6 @@ permalink: /courses/
 author_profile: true
 ---
 
-Small description
-
 ## Fall 2026
 ### Modeling Methods in Mechanical Engineering (Master's)
 
