@@ -47,18 +47,20 @@
   min-width: 0;
 }
 
-.project-card__title 
+.project-card .archive__item-title
 {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.18rem;
   color: #183b4e;
   font-size: 0.92em;
   font-weight: 700;
   line-height: 1.25;
 }
 
- .project-card__excerpt
+ .project-card .archive__item-excerpt
  {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  color: #4d5960;
   font-size: 0.82em;
   line-height: 1.35;
 }

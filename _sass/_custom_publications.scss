@@ -108,6 +108,12 @@
   background: #278aa3;
 }
 
+.publication-card .archive__item p
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media (max-width: 600px) {
   .publication-card {
     padding: 0.85rem 0.9rem;
