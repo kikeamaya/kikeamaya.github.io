@@ -26,11 +26,11 @@ author:
   avatar           : "ERAU tennis mugshot.jpg" # filename of avatar image placed in /images/ for the left-hand sidebar
   name             : "Enrique Amaya"
   pronouns         : # example: "she/her"  
-  bio              : "B.S. Engineering Physics| M.S. Mechanical Engineering"
+  bio              : "B.S. Engineering Physics | M.S. Mechanical Engineering"
   location         : "Daytona Beach, FL"
   employer         : "Embry-Riddle Aeronautical University"
   uri              : # URL
-  email            : "enriqueamaya0312@gmail.com" 
+  email            : "enriqueamaya0312@gmail.com"
 
   # Academic websites
   academia         : # URL
