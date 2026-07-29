@@ -1,0 +1,29 @@
+/* Allow the main navigation to scroll horizontally on phones */
+@media (max-width: 768px) {
+  .greedy-nav {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .greedy-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .greedy-nav .visible-links {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: max-content;
+  }
+
+  .greedy-nav .visible-links li {
+    flex: 0 0 auto;
+  }
+
+  .greedy-nav .visible-links a {
+    white-space: nowrap;
+  }
+}
