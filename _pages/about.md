@@ -37,7 +37,7 @@ Without further ado, welcome to my personal portfolio and I hope you enjoy it! I
     loading="lazy">
 
   <img
-    src="{{ '/images/Tennis_pic.png' | relative_url }}"
+    src="{{ '/images/ERAU_tennis_pic.jpg' | relative_url }}"
     alt="Embry-Riddle tennis team"
     class="about-gallery__image"
     loading="lazy">
