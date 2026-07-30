@@ -7,21 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-## Small introduction
--Describe what my current standing is (classes, university)
+I am currently a 4th year undergraduate student attending Embry-Riddle Aeronautical University, where I'm pursuing a B.S. degree in Engineering Physics under the university's Physical Sciences Department. Additionally, I have also enrolled in Embry-Riddle's Accelerated Master's Program, where I'll be pursuing a Master of Science in Mechanical Engineering under the Mechanical Engineering Department.
 
-## Academic Description
-- Talk about major, graduation plan and masters (if applicable)
-- Talk about concentration and for what purpose they are for
+As an Engineering Physics major, with a concentration in Spacecraft Systems, I have been exposed to an extensive workload in applied physics, ranging from basic concepts to upper-level theoretical physics. I have also been introduced to important fundamentals of the mechanical, electrical and aerospace engineering fields, such as electronic instrumentation and microcomputer programming, solid and fluid mechanics theory, spaceflight dynamics and spacecraft system analysis.
 
-## Research Interests
--Describe current work and future work or interests
--Explain current and future plans in terms of studies
-- Member of EPPL
+Furthermore, under the M.S. in Mechanical Engineering, where I'll be pursuing a concentration in Robotics & Autonomous Systems, I intend to further expand my knowledge in control engineering applied in UAV robotic systems. As a member of the Engineering Physics Propulsion Laboratory at Embry-Riddle, by pursuing my graduate studies within this field I hope to expand my work in autonomous robotic projects such as [AIRHOUND](/projects/airhound/).
 
-## Student-Athlete life
-- Talk about being tennis student-athlete at embry-riddle
+Beyond my academic trajectory, I am also a student-athlete at Embry-Riddle, where I compete under ERAU's NCAA Division II tennis team, reaching a team national ranking of #6 last season. Balancing sports and academics has certainly not been easy, nevertheless, it has also been a privilege to experience both worlds.
 
-## Welcome and Appreciation
-- Give final welcome to users of the site
-- Thank them for their time, wish for them to have a good time and not hesitate to reach out
+Without further ado, welcome to my personal portfolio and I hope you enjoy it! If interested in connecting, please do not hesitate in reaching out.
+
