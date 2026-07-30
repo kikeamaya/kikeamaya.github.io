@@ -17,3 +17,28 @@ Beyond my academic trajectory, I am also a student-athlete at Embry-Riddle, wher
 
 Without further ado, welcome to my personal portfolio and I hope you enjoy it! If interested in connecting, please do not hesitate in reaching out.
 
+<div class="about-gallery">
+  <img
+    src="{{ '/img/EP391_Pic.jpeg' | relative_url }}"
+    alt="Microcomputer instrumentation project"
+    class="about-gallery__image"
+    loading="lazy">
+
+  <img
+    src="{{ '/img/SRS_Poster_Pic.jpeg' | relative_url }}"
+    alt="AIRHOUND SRS poster"
+    class="about-gallery__image"
+    loading="lazy">
+
+  <img
+    src="{{ '/img/X-RAY_Pic.jpeg' | relative_url }}"
+    alt="X-ray crystallography experiment"
+    class="about-gallery__image"
+    loading="lazy">
+
+  <img
+    src="{{ '/img/ERAU_tennis_pic.webp' | relative_url }}"
+    alt="Embry-Riddle tennis team"
+    class="about-gallery__image"
+    loading="lazy">
+</div>
