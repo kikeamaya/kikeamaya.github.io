@@ -19,25 +19,25 @@ Without further ado, welcome to my personal portfolio and I hope you enjoy it! I
 
 <div class="about-gallery">
   <img
-    src="{{ '/img/EP391_Pic.jpeg' | relative_url }}"
+    src="{{ '/images/EP391_Pic.jpeg' | relative_url }}"
     alt="Microcomputer instrumentation project"
     class="about-gallery__image"
     loading="lazy">
 
   <img
-    src="{{ '/img/SRS_Poster_Pic.jpeg' | relative_url }}"
+    src="{{ '/images/SRS_Poster_Pic.jpeg' | relative_url }}"
     alt="AIRHOUND SRS poster"
     class="about-gallery__image"
     loading="lazy">
 
   <img
-    src="{{ '/img/X-RAY_Pic.jpeg' | relative_url }}"
+    src="{{ '/images/X-RAY_Pic.jpeg' | relative_url }}"
     alt="X-ray crystallography experiment"
     class="about-gallery__image"
     loading="lazy">
 
   <img
-    src="{{ '/img/ERAU_tennis_pic.webp' | relative_url }}"
+    src="{{ '/images/ERAU_tennis_pic.webp' | relative_url }}"
     alt="Embry-Riddle tennis team"
     class="about-gallery__image"
     loading="lazy">
