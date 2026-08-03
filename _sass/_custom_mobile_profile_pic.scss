@@ -1,0 +1,13 @@
+/* Smaller profile pic in mobile version*/
+
+@media (max-width: 768px)
+{
+ .author__avatar img
+    {
+        width: 90px;
+        height: 90px;
+        max-width: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
