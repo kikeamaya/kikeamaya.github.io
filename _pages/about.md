@@ -19,7 +19,7 @@ Without further ado, welcome to my personal portfolio and I hope you enjoy it! I
 
 <div class="about-gallery">
   <img
-    src="{{ '/images/EP391_Pic.jpeg' | relative_url }}"
+    src="{{ '/images/EP_391_Project/EP391_Pic.jpeg' | relative_url }}"
     alt="Microcomputer instrumentation project"
     class="about-gallery__image"
     loading="lazy">
