@@ -9,4 +9,140 @@ header:
 
 ---
 
-Details coming
+<h2> Project Objective</h2>
+
+<p>
+This project consisted of designing and implementing a multi-functional light source tracking system that could be 
+capable of monitoring environmental and system level parameters. The main objective of this project involved constructing
+a model of a real-life satellite payload capable of tracking actual sunlight while being able to resist hazards 
+and obtain crucial, live data in space. Therefore, in order to accomplish this goal, five specific subsystems were
+built in order to satisfy the requirements for this project. These subsystems are as follows:
+</p>
+
+<ol>
+    <li> Power Source Subsystem</li>
+    <li> Power Monitoring Subsystem</li>
+    <li> Sun Tracking Subsystem</li>
+    <li> Temperature Subsystem</li>
+    <li> Telemetry Subsystem</li>
+</ol>
+
+<p>
+For the sake of summarizing, information regarding detailed explanations, procedures, component schematics, and such for
+this Microcomputer Instrumentation project, please refer to the technical report prepared
+by the team found<a href="{{ '/files/EP391-Final-Project-Report.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">here</a>.
+</p>
+
+<h2> 1. Power Source Subsystem</h2>
+
+<p>
+This subsystem consisted on developing a power source capable of providing the necessary voltage and current to the
+entire structure. Due to important constraints such as voltage limits and analog circuitry, DC power was converted 
+through positive and negative voltage regulators. This provided a balanced power environment for the other 
+subsystems that needed positive and negative power rails, mostly seen for many of the operational amplifiers used.
+Therefore the primary objective of this subsystem lied in supplying 5V to both BalloonSat amplifiers, as well as supplying
+7V to the stepper motor.
+</p>
+
+<p>The components used were as follows:</p>
+
+<ul>
+    <li> Three 9V Batteries: Used for supplying DC power input into voltage regulator and tracking subsystem</li>
+    <li> LM317 Positive Voltage Regulator: Provides an adjustably stable positive power output </li>
+    <li> LM337 Negative Voltage Regulator: Provide an adjustably stable negative power output</li>
+    <li> 0.1 and 1 µF Tantalum Capacitors: Improve voltage stability and regulate voltage outputs along with potentiometer</li>
+    <li> Resistors: 330 Ω resistor for LM317 and 150 Ω resistor for LM337</li>
+</ul>
+
+
+<h2> 2. Power Monitoring Subsystem</h2>
+
+<p>
+This subsystem had the main objective of tracking the voltage levels of the batteries used to power the system as a whole,
+along with the rate of power drawn from the batteries. It tracks the voltage levels through two inverting amplifiers
+which result in a total net gain of 1/3, while the power draw monitoring system was intended to measure current being 
+pulled through a shunt resistor, though that latter part had its difficulties. 
+</p>
+<p>For the first amplifier: </p>
+<ul>
+    <li> Two 100KΩ resistors</li>
+    <li> One 200KΩ resistor</li>
+    <li> TL082 Operational Amplifier</li>
+</ul>
+
+<p>For the second amplifier:</p>
+
+<ul>
+    <li> Two 39kΩ resistors</li>
+    <li> TL082 operational amplifier</li>
+</ul>
+
+<p>
+Schematics of how power is sent through amplifiers, and how net gain turns to 1/3, check <a> href="/files/"</a>lab maual for TL082
+amplifier and the official technical report.
+</p>
+
+
+<h2> 3. Tracking Subsystem</h2>
+
+<p>
+For this subsystem, the primary goal was to determine the angular displacement of any given light source projected 
+onto the from some given initial position. The main operation lied on three photodiodes being positioned on a 3D base,
+separated by 0.625 inches and 50 degrees apart, with the idea that they would function as
+light receptors. Whenever a light source would strike the 3D mount, depending on which LED would pick the strongest signal, the entire mount 
+would rotate in that direction. A target prediction was also enabled in case that the photodiodes would stop picking light
+readings, the mount would continue to rotate in the last direction until a new reading would be picked up.
+</p>
+<p>The components for this subsystem included:</p>
+<ul>
+    <li> Three white photodiodes</li>
+    <li> Three transimpedance amplifiers (schematics)</li>
+    <li> Three 330Ω resistors</li>
+    <li> Stepper motor (schematics)</li>
+    <li> H-Bridge (schematics)</li>
+    <li> TL082 operational amplifier</li>
+    <li> 10MΩ resistor</li>
+</ul>
+
+
+<h2> 4. Temperature Subsystem </h2>
+
+<p> 
+The main purpose of this subsystem, where I took the main lead, was to determine the temperature readings across the entire
+payload, which in this case would be the stepper motor rotating the 3D mount whenever light would be reflected onto it. This proved to be crucial
+since it is relevant to determine if there are temperature fluctuations within the payload which could affect the quality of the mission, which is what
+this project is intending to simulate. The important requirement that was needed to be satisfied was that this subsystem
+would be able to operate within -20°C  to 60°C degrees. It was also important to have this data sent to the
+microcontroller, which would be converted from ADC counts into actual temperature and sent to
+telemetry system through UART (see technical report).
+</p>
+<p>The components used for this subsystem were as follows:</p>
+<ul> 
+    <li> ATmega644PA microcontroller: Received temperature readings in ADC counts</li>
+    <li> 2 LM05-103K NTC thermistors: Used for temperature sensing</li>
+    <li> UART: Transmitter for sending data to MATLAB ground station</li>
+    <li> TL082 operational amplifiers: Non-inverting amplifier setup</li>
+</ul>
+
+
+<h2> 5. Telemetry Subsystem</h2>
+<p> 
+This subsystem had the main objective consisted on transmitting all data collected from each subsystem in real time, simulating
+what a real ground station would pick up on a satellite payload being sent on a space mission. Though issues were present when
+collecting accurate data, this subsystem proved helpful by allowing the team to observe how, or if, the entire system was functioning
+accordingly, and whether the expected result were being obtained or not.
+
+</p>
+
+<p>
+A small demonstration on what the final product looked like can be seen in the following video:
+</p>
+
+
+
+<!-- 
+1. Make sure to add important links in each subsystem section with references to the actual lab documents for pieces.
+2. Add a link to the final report at the bottom of the page. (Beginning of page, check)
+3. Make sure to highlight types of amplifiers in each subsystem ()
+4. Add all components used and attach visuals if appropiate
+-->
