@@ -15,7 +15,7 @@ Furthermore, under the M.S. in Mechanical Engineering, where I'll be pursuing a 
 
 Beyond my academic trajectory, I am also a student-athlete at Embry-Riddle, where I compete under ERAU's [NCAA Division II tennis team](https://erauathletics.com/sports/mens-tennis) reaching a team national ranking of #6 last season. Balancing sports and academics has certainly not been easy, nevertheless, it has also been a privilege to experience both worlds.
 
-Without further ado, welcome to my personal portfolio and I hope you enjoy it! If interested in connecting, please do not hesitate in reaching out.
+Without further ado, welcome to my personal portfolio and I hope you enjoy it! If interested in connecting, please do not hesitate to reach out.
 
 <div class="about-gallery">
   <img

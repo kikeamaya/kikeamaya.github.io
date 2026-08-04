@@ -83,6 +83,8 @@
 /* Keep schematics readable without cropping their labels */
 .balloonsat-gallery__subsystem--diagram img 
 {
+  height: auto;
+  aspect-ratio: auto;
   object-fit: contain;
   background: #fff;
 }
