@@ -71,6 +71,15 @@
   border-radius: 0;
 }
 
+.balloonsat-video iframe 
+{
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+}
+
 /* Keep schematics readable without cropping their labels */
 .balloonsat-gallery__subsystem--diagram img 
 {
