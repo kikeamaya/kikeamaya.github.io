@@ -3,7 +3,7 @@ title: "Robust Real-Time UAV Target Tracking with Onboard Vision-Based Yaw Contr
 collection: publications
 category: manuscripts
 permalink: /publications/erau-beyond-article/
-authors: '<a href="https://www.linkedin.com/in/rylan-malarchick/" target="_blank  rel="noopener noreferrer">  Rylan Malarchick </a>, <a href="https://www.linkedin.com/in/jose-castelblanco-002640195/" target="_blank" rel="noopener noreferrer">  Jose Castelblanco</a>, Enrique Amaya, <a href="https://www.linkedin.com/in/carmen-dimario/" target="_blank" rel= "noopener noreferrer"> Carmen Dimario </a>, <a href="https://www.linkedin.com/in/graysen-brinkman/" target="_blank" rel= "noopener noreferrer"> Graysen Brinkman </a>'
+authors: '<a href="https://www.linkedin.com/in/rylan-malarchick/" target="_blank  rel="noopener noreferrer"> Rylan Malarchick</a>, <a href="https://www.linkedin.com/in/jose-castelblanco-002640195/" target="_blank" rel="noopener noreferrer">  Jose Castelblanco</a>, Enrique Amaya, <a href="https://www.linkedin.com/in/carmen-dimario/" target="_blank" rel= "noopener noreferrer"> Carmen Dimario</a>, <a href="https://www.linkedin.com/in/graysen-brinkman/" target="_blank" rel= "noopener noreferrer"> Graysen Brinkman</a>.'
 excerpt: "A modular ROS2-based architecture which integrates perception, tracking, offboard control and simulation modules with the objective of establishing a validated software foundation for vision-based UAV tracking."
 date: 2026-06-15
 abstract: >
