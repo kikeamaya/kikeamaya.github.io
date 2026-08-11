@@ -41,6 +41,12 @@
             Project
           </a>
         {% endif %}
+
+        {% if post.poster_pdf %}
+          <a class="publication-card__button" href="{{ post.poster_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
+            Poster
+          </a>
+        {% endif %}
       </div>
     </div>
   </article>
